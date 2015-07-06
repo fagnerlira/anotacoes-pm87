@@ -1,1 +1,66 @@
 usuario:agil5270
+
+
+
+#git remote add origin https://github.com/fagnerlira/anotacoes-pm87.git
+
+#git pull origin master  -- atualiza -- fazer antes do push
+
+
+#git push origin master  -- executar depois do pull
+
+
+https://github.com/mauricioaniche/pm87-anotacoes-jul2015.git
+
+ssh: git@github.com:mauricioaniche/pm87-anotacoes-jul2015.git
+
+git add -A fagner.txt
+git commit -m "Arquivo Fagner"
+
+Para fazer para todas as mudancas  ** dentro da pasta workspace
+#git add -A   *** adiciona tudo
+#git commit -m "mensagem do que vc fez....enviando para o servidor"
+#git push origin master  **** enviar para o servido git.
+
+git  
+push   = envia para o servidor
+origin = nome do repositorio remoto
+master = git branch --linha de trabalho
+
+
+git branch -D work *** para deletar a branch
+
+-b = cria um novo branch
+#git branch = para ver a branch atual
+Obs: o algoritmo interno do pull é Merge.
+Fluxo sugerido pelo Linus
+
+A branch work so existe na minha maquina
+se eu fizer um git push origin work, ela ira para o github na web.
+
+checkout = trocar de branch
+
+alternativa
+1 - #git checkout -b work
+2 - #trabalhei
+3 - #git checkout master  -- muda de branch
+4 - #git pull origin master
+5 - #git checkout work
+6 - #git rebase ou merge master
+7 - #gir checkout master
+8 - #git merge work
+9 - #git push origin master
+
+
+
+https://github.com/mauricioaniche/pm87-anotacoes-jul2015
+
+
+https://github.com/caelum/pm87-agiletickets **** Clilar em Fork  *** copiar o endereco ssh
+#git clone git@github.com:fagnerlira/pm87-agiletickets.git
+#ant resolve
+
+
+Livros 
+Domain Driven Design - Atacando As Complexidades No Coração do Software - 2ª Ed. 2011
+http://www.saraiva.com.br/domain-driven-design-atacando-as-complexidades-no-coracao-do-software-2-ed-2011-3415254.html
