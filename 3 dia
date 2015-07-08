@@ -1,0 +1,68 @@
+http://www.livrariacultura.com.br/p/head-first-design-patterns-779829
+
+http://github.com/bacoco/agile-workshp-tdd  ** para pegar o test da interface Acao
+
+
+http://pitest.org/
+numero de mackey metricas de software
+
+Ferramenta Sonar Java: avaliando o código através de métricas
+Eclipse Metrics é uma ferramenta
+
+Para medir -- Métrica de codigo  -- heurística
+** Quantidade de Linhas de Código
+** Numero de mudancas em arquivo(Churn)  -- significa que ele é importante  ***arquivo muito commitado e muito grande, muitas lindas de codigos
+** Complexidade ciclomática   -- numero de caminhos que o metodo pode ter  --- quantidade de if dentro de if no metodo 
+** Cobertura de código
+* Duplicacao de codigo  ** Com o OO posso corrigir isso
+* Densidade de comentarios
+* Acoplamento    ** Avalia estabilidade do sistema  ** efferent vs afferent coupling metrics
+* Coesao         ** LCOM 
+* Codigo morto
+* Numero de parametro que um metodo recebe
+* numero de returns num metodo
+* numero de atributos
+* numero de varias locais
+* numero de invocacoes de metodos
+
+
+http://yuml.me/
+
+
+Exercício: Tabela de Descontos, Frete, Compra.
+Uma compra tem muitos ítens e um cliente. 
+Cada item tem um nome, um preço unitário, uma quantidade. 
+Um cliente tem nome e estado.
+Para se calcular o valor final,
+ deve-se ver o valor (total da compra + frete - desconto).
+ 
+O frete: de acordo com a região do país e quantidade de ítens.
+
+SP, até 3 ítens: 10,00
+SP, mais que 3 ítens: 17,00
+
+RJ, até 4 ítens: 11,00
+RJ, mais que 4 ítens: 15,00
+
+Sul do país: 22,00
+
+Restante: 25,00
+ 
+Desconto: Baseado no valor da compra.
+Se compra total for menor ou igual a 500, desconto de 5%.
+Se compra total estiver entre 501 e 2000 (inclusive), desconto de 10%.
+Mais que isso, 15%.
+ 
+Fazer uma classe que, dado uma compra com ítens e cliente, ele devolve o valor final da compra.
+
+ 
+Professor: mauricio.aniche@caelum.com.br
+
+https://sistema.caelum.com.br/avaliacao/73f6e8d
+
+
+
+
+
+
+
